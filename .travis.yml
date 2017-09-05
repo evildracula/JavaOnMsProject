@@ -1,7 +1,7 @@
 language: java
 sudo: false
 before_install:
-after_install:
+after_script:
  - mvn -Dincludes="pom.xml" scm:add
  - mvn -Dmessage="CI Build Update" scm:checkin
 
