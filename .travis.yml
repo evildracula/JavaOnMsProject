@@ -6,7 +6,7 @@ deploy:
   provider: releases
   user: $GIT_HUB1
   password: $GIT_HUB2
-  file: "$TRAVIS_BUILD_DIR/*"
+  file: "$TRAVIS_BUILD_DIR/*.jar"
   skip_cleanup: true
   on:
     tags: false
