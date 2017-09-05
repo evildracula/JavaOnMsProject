@@ -5,7 +5,8 @@ before_deploy:
 deploy:
   provider: releases
   api_key: $GIT_HUB3
-  file: "$TRAVIS_BUILD_DIR/target/*.jar"
+  file_glob: true
+  file: "/home/travis/.m2/repository/ext/project/ms/msproject/0.0.1-SNAPSHOT/msproject-0.0.1-SNAPSHOT.jar"
   skip_cleanup: true
   on:
     tags: false
