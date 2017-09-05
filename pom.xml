@@ -15,6 +15,7 @@
 	</properties>
 	<scm>
 	  <developerConnection>scm:git:ssh://git@github.com:evildracula/JavaOnMsProject.git</developerConnection>
+	<connection>scm:git:ssh://git@github.com:evildracula/JavaOnMsProject.git</connection>
 	  <tag>HEAD</tag>
 	</scm>
 
@@ -49,6 +50,10 @@
 				<configuration>
           				<connectionType>developerConnection</connectionType>
         			</configuration>
+				</plugin>
+				<plugin>
+				  <artifactId>maven-scm-plugin</artifactId>
+				  <version>2.5.2</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
