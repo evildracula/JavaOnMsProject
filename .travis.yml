@@ -1,5 +1,7 @@
 language: java
 sudo: false
+before_deploy:
+  echo "Build Directory Target: $TRAVIS_BUILD_DIR/*"
 deploy:
   provider: releases
   user: $GIT_HUB1
@@ -7,6 +9,6 @@ deploy:
   file: "$TRAVIS_BUILD_DIR/*"
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
 script:
  - mvn clean install
