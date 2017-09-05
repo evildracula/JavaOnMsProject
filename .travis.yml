@@ -8,3 +8,5 @@ deploy:
   file_glob: true
   file: "/home/travis/.m2/repository/ext/project/ms/msproject/0.0.1-SNAPSHOT/msproject-0.0.1-SNAPSHOT.jar"
   skip_cleanup: true
+  on:
+    tags: true
