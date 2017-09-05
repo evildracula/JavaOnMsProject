@@ -4,8 +4,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  user: $GIT_HUB1
-  password: $GIT_HUB2
+  api_key: $GIT_HUB3
   file: "$TRAVIS_BUILD_DIR/*.jar"
   skip_cleanup: true
   on:
