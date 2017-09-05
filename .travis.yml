@@ -1,7 +1,10 @@
 language: java
 sudo: false
 before_install:
- - mvn release:prepare
+
+after_install:
+ - mvn -Dmessage="CI Build Update" scm:checkin
+
 deploy:
   provider: releases
   api_key: $GIT_HUB3
