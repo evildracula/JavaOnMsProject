@@ -1,7 +1,7 @@
 language: java
 sudo: false
 before_deploy:
-  echo "Build Directory Target: $TRAVIS_BUILD_DIR/*"
+  - echo "Build Directory Target: $TRAVIS_BUILD_DIR/*"
 deploy:
   provider: releases
   user: $GIT_HUB1
