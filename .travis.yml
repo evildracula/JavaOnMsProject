@@ -5,7 +5,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key: $GIT_HUB3
-  file: "$TRAVIS_BUILD_DIR/*.jar"
+  file: "$TRAVIS_BUILD_DIR/target/*.jar"
   skip_cleanup: true
   on:
     tags: false
