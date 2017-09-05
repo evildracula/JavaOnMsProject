@@ -14,10 +14,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-	  <connection>scm:git:ssh://github.com/evildracula/JavaOnMsProject.git</connection>
-	  <developerConnection>scm:git:ssh://github.com/evildracula/JavaOnMsProject.git</developerConnection>
-	  <url>scm:git:ssh://github.com/evildracula/JavaOnMsProject.git</url>
-	  <tag>SNAPSHOT</tag>
+	  <connection>scm:git:ssh://git@github.com:evildracula/JavaOnMsProject.git</connection>
+	  <tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
