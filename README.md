@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/evildracula/JavaOnMsProject.svg?branch=master)](https://travis-ci.org/evildracula/JavaOnMsProject)
 # JavaOnMsProject
 This project aims to provide a java based Microsoft Project
 
