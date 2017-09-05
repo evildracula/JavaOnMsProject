@@ -1,2 +1,10 @@
 language: java
 sudo: false
+deploy:
+  provider: releases
+  user: $GIT_HUB1
+  password: $GIT_HUB2
+  file: "./make/out"
+  skip_cleanup: true
+  on:
+    tags: true
