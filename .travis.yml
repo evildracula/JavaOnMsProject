@@ -1,7 +1,6 @@
 language: java
 sudo: false
 before_install:
-  - mvn -Dtag="RELEASE" scm:tag
 # - echo " " >> pom.xml
 # - git checkout origin/master
 after_script:
