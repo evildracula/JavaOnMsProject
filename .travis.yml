@@ -17,4 +17,4 @@ deploy:
     - ./.travis/after_success.sh
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
