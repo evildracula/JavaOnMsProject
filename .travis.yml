@@ -2,7 +2,7 @@ language: java
 sudo: false
 before_install:
  - echo " " >> pom.xml
- - git checkout master
+ - git checkout origin/master
 after_script:
  - mvn -Dincludes="pom.xml" scm:add
  - mvn -Dmessage="CI Build Update" scm:checkin
