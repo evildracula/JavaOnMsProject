@@ -57,8 +57,6 @@
 					<connectionUrl>${project.scm.connection}</connectionUrl>
 					<scmVersion>master</scmVersion>
 					<scmVersionType>branch</scmVersionType>
-					<username>${env.GIT_HUB1}</username>
-					<password>${env.GIT_HUB2}</password>
         			</configuration>
 				</plugin>
 				<plugin>
