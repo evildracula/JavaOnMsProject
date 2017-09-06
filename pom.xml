@@ -54,6 +54,8 @@
 				  <version>1.9.5</version>
 				<configuration>
           				<connectionType>developerConnection</connectionType>
+					<username>${env.GIT_HUB1}</username>
+					<password>${env.GIT_HUB2}</password>
         			</configuration>
 				</plugin>
 				<plugin>
