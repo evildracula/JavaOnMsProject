@@ -2,6 +2,8 @@ language: java
 sudo: false
 before_install:
   - echo " " >> pom.xml
+  - git config --global github.user evildracula
+  - git config --global github.token $GIT_HUB3
   - git checkout master
 after_script:
  - mvn -Dincludes="pom.xml" scm:add
