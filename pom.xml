@@ -54,6 +54,7 @@
 				  <version>1.9.5</version>
 				<configuration>
           				<connectionType>developerConnection</connectionType>
+					<connectionUrl>${project.scm.connection}</connectionUrl>
 					<scmVersion>master</scmVersion>
 					<scmVersionType>branch</scmVersionType>
 					<username>${env.GIT_HUB1}</username>
