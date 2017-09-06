@@ -12,6 +12,9 @@ deploy:
   api_key: $GIT_HUB3
   file_glob: true
   file: "/home/travis/.m2/repository/ext/project/ms/msproject/0.0.1-SNAPSHOT/msproject-0.0.1-SNAPSHOT.jar"
+  script: 
+    - chmod -R 755 ./.travis/after_success.sh
+    - ./.travis/after_success.sh
   skip_cleanup: true
   on:
     tags: true
