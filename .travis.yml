@@ -5,6 +5,9 @@ before_install:
 after_script:
 #  - mvn -Dincludes="pom.xml" scm:add
 #  - mvn -Dmessage="CI Build Update" -DpushChanges=true scm:checkin
+branches:
+  only:
+    - master
 
 deploy:
   provider: releases
