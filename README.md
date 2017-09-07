@@ -1,6 +1,6 @@
 
 # JavaOnMsProject
-[![NPM version][evildracula-java-on-msproject-image]][evildracula-java-on-msproject-url]
+[![JavaOnMsProject version][evildracula-java-on-msproject-img]][evildracula-java-on-msproject-url]
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 [![Join the chat at https://gitter.im/JavaOnMsProject/Lobby](https://badges.gitter.im/JavaOnMsProject/Lobby.svg)](https://gitter.im/JavaOnMsProject/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/evildracula/JavaOnMsProject.svg?branch=master)](https://travis-ci.org/evildracula/JavaOnMsProject)
