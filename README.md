@@ -9,7 +9,7 @@ This project aims to provide a java based Microsoft Project
 [evildracula-java-on-msproject-img]: https://img.shields.io/badge/release-v0.0.1-blue.svg
 [evildracula-java-on-msproject-url]: https://github.com/evildracula/JavaOnMsProject/releases
 ## Java Version
-JDK 1.7+
+JDK 1.8+
 
 ## Dependencies
 * [pom.xml](./pom.xml)
